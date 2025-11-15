@@ -1,0 +1,39 @@
+import { useState } from 'react'
+import classes from '../header/header.module.scss'
+import stor from './assets/storefront.png'
+import but from './assets/user.png'
+function Header() {
+  const [count, setCount] = useState(0)
+
+  return (
+    <>
+      <header>
+        <nav>
+          <div>
+            <img src={stor} alt="" />  
+            <p>NFT Marketplace</p>
+          </div>
+          <ul>
+            <li>
+              <a>Marketplace</a>
+            </li>
+            <li>
+              <a>Rankings</a>
+            </li>
+            <li>
+              <a>Connect a wallet</a>
+            </li>
+            <li>
+              <button>
+                <img src={but} alt="" />
+                Sign Up
+              </button>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </>
+  )
+}
+
+export default Header
