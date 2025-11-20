@@ -3,14 +3,18 @@ import classes1 from '../Page_Home/Page_Home.module.scss'
 import n from './assets/spacewolk.png'
 import r from './assets/Avatar.png'
 import roket from './assets/RocketLaunch.png'
+import Header from '../header/header.jsx'
+
+
 
 function Page_Home() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+        <Header/>
         <main>
-          <section className={classes1.digit}>
+         <section className={classes1.digit}>
             <div className={classes1.poddigit}>
              <div className={classes1.dis}>
               <h1>Discover digital art & Collect NFTs</h1>
@@ -45,8 +49,17 @@ function Page_Home() {
              </div>
           </section>
           <section className={classes1.trend}>
-            <div className={classes1.podtrend}>
+            <div className={classes1 .podtrend}>
+              <div className={classes1.tr}>
+                <h1>Trending Collection</h1>
+                <p>Checkout our weekly updated trending collection.</p>
+              </div>
 
+              <div>
+                <div>
+
+                </div>
+              </div>
             </div>
           </section>
         </main>
