@@ -28,7 +28,7 @@ function Header() {
               <a>Connect a wallet</a>
             </li>
             <li>
-              <Link to = {'/sign'}>
+              <Link className={classes.liSign} to = {'/sign'}>
               <button>
                 <img src={but} alt="" />
                 Sign Up

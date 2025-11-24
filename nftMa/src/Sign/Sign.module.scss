@@ -1,7 +1,14 @@
 main{
   margin: 0 auto;
   width: 1280px;
-  height: 700px;
+  height: 691px;
   color: white;
-  background-color: wheat;
+  background-color: rgba(43, 43, 43, 1);
+}
+section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
 }

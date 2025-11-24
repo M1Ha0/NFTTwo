@@ -10,8 +10,9 @@ function App() {
   return (
     <>
     <Routes>
+      <Route path='/' element={<Page_Home/>} />
       <Route path='sign' element={<Sign/>} />
-        <Route path='/' element={<Page_Home/>} />
+      
         
     </Routes>
     </>
