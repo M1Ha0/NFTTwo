@@ -4,7 +4,7 @@ import n from './assets/spacewolk.png'
 import r from './assets/Avatar.png'
 import roket from './assets/RocketLaunch.png'
 import Header from '../header/header.jsx'
-
+import Footer from '../footer/footer.jsx'
 
 
 function Page_Home() {
@@ -63,6 +63,8 @@ function Page_Home() {
             </div>
           </section>
         </main>
+        
+        <Footer/>
     </>
   )
 }

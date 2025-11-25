@@ -6,7 +6,8 @@ import EnvelopeSimple from './assets/EnvelopeSimple.png'
 import LockKey from './assets/LockKey.png'
 
 import Header from '../header/header.jsx'
-
+import Footer from '../footer/footer.jsx'
+import { Link } from 'react-router-dom'
 
 
 function Sign() {
@@ -15,17 +16,17 @@ function Sign() {
   return (
     <>
     <Header/>
-        <main>
+        <main className={classes2.main}>
         <section>
           <img src={IPlaceh} alt="" />
-          <div>
-            <h1>
+          <div className={classes2.rightD}>
+            <h2>
                 Create account
-            </h1>
+            </h2>
             <p>
               Welcome! enter your details and start creating, collecting and selling NFTs.
             </p>
-              <div>
+              <div className={classes2.inD}>
                 <div>
                   <img src={User1} alt="" />
                   <input type="text" placeholder='Username' />
@@ -42,11 +43,17 @@ function Sign() {
                   <img src={LockKey} alt="" />
                   <input type="password" placeholder='Confirm Password'/>
                 </div>
-                <button>Create account</button>
+                <nav className={classes2.s}>
+                  <button>Create account</button>
+                  <Link to = {'/signWB'}>
+                      Connect wallet
+                  </Link>
+                </nav>
               </div>
           </div>
         </section>
         </main>
+        <Footer/>
     </>
   )
 }
