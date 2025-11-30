@@ -39,7 +39,7 @@ function Page_Home() {
                 </div>
              </div>
              <div className={classes1.cart}>
-              <img src={n} alt="" />
+              <img className={classes1.img} src={n} alt="" />
               <p className={classes1.T}>Space Walking</p>
               <div>
                 <img src={r} alt=""/>

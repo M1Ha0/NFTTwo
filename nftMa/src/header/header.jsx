@@ -14,7 +14,7 @@ function Header() {
           <Link to = {'/'}>
           <div>
             <img src={stor} alt="" />  
-            <p>NFT Marketplace</p>
+            <h1>NFT Marketplace</h1>
           </div>
           </Link>
           <ul>

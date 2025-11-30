@@ -17,8 +17,9 @@ function Sign() {
     <>
     <Header/>
         <main className={classes2.main}>
-        <section>
-          <img src={IPlaceh} alt="" />
+        
+        <section className={classes2.secS}>
+          <img className={classes2.imgleft} src={IPlaceh} alt="" />
           <div className={classes2.rightD}>
             <h2>
                 Create account

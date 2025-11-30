@@ -15,7 +15,7 @@ function SignWithBrows() {
     <>
     <Header/>
         <main className={classes3.main}>
-        <section>
+        <section className={classes3.secSB}>
           <img src={leftI} alt="" />
           <div className={classes3.rightD}>
             <h2>
