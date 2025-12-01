@@ -1,27 +1,28 @@
-
-header{
+header {
   width: 100vw;
-  height: 8vh;
+  height: 12vh;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  nav{
+
+  nav {
     width: 95%;
     height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
-    ul{
+
+    ul {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      width: 30%;
+      width: 36%;
       height: 60px;
       text-decoration: none;
       list-style-type: none;
-      a{
+
+      a {
         color: #FFFFFF;
         font-family: Work Sans;
         font-weight: 600;
@@ -31,7 +32,8 @@ header{
         letter-spacing: 0%;
         text-align: center;
       }
-      button{
+
+      button {
         color: #FFFFFF;
         font-family: Work Sans;
         font-weight: 600;
@@ -49,30 +51,34 @@ header{
         align-items: center;
         border-radius: 20px;
         border: #A259FF;
-        img{
+
+        img {
           background-color: #A259FF;
         }
-        
+
       }
     }
-    div{
+
+    div {
       display: flex;
       justify-content: space-around;
       align-items: center;
       width: 300px;
       height: 32px;
-      h1{
+
+      h1 {
         color: #FFFFFF;
         font-size: 30px;
         font-weight: 700;
-        
+
       }
     }
   }
-  
+
   background-color:#2B2B2B;
 
 }
-.liSign{
+
+.liSign {
   text-decoration: none;
 }

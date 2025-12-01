@@ -48,20 +48,16 @@ function Page_Home() {
              </div>
              </div>
           </section>
-          <section className={classes1.trend}>
+          {/* <section className={classes1.trend}>
             <div className={classes1 .podtrend}>
               <div className={classes1.tr}>
                 <h1>Trending Collection</h1>
                 <p>Checkout our weekly updated trending collection.</p>
               </div>
+              
 
-              <div>
-                <div>
-
-                </div>
-              </div>
             </div>
-          </section>
+          </section> */}
         </main>
         
         <Footer/>

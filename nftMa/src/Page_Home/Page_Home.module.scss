@@ -1,41 +1,46 @@
-main{
+main {
   margin: 0 auto;
   width: 100vw;
-   background-color: #2B2B2B;
+  background-color: #2B2B2B;
 }
-.cart{
-width: 40%;
-height: 85%;
-display: flex;
-flex-direction: column;
-align-items: start;
-justify-content: space-between;
-background-color: #3B3B3B;
-border-radius: 20px;
-.img{
+
+.cart {
+  width: 40%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+
+  .img {
     width: 100%;
     height: 70%;
   }
-div{
-  margin-top: 0;
-  display: flex;
-  width: 110px;
-  height: 31px;
-  align-items: center;
-  justify-content: space-around;
-  margin-left: 20px;
-  padding-bottom: 20px;
-  p{
-    font-weight: 300;
-    font-style: Regular;
-    font-size: 16px;
-    color: #FFFFFF;
-    text-decoration: none;
-    
+
+  div {
+    margin-top: 0;
+    display: flex;
+    width: 110px;
+    height: 31px;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 20px;
+    padding-bottom: 20px;
+
+    p {
+      font-weight: 300;
+      font-style: Regular;
+      font-size: 16px;
+      color: #FFFFFF;
+      text-decoration: none;
+
+    }
   }
 }
-}
-.T{
+
+.T {
   font-family: Work Sans;
   font-weight: 600;
   font-style: SemiBold;
@@ -47,96 +52,105 @@ div{
   color: #FFFFFF;
   margin-left: 20px;
 }
-.digit{
+
+.digit {
   display: flex;
-  width: 60%;
-  height: 80vh;
+  width: 72%;
+  height: 90vh;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
 }
-.poddigit{
+
+.poddigit {
   display: flex;
   width: 100%;
-  height: 70%;
+  height: 85%;
   align-items: start;
   justify-content: space-between;
 }
-.dis{
-  width: 40%;
+
+.dis {
+  width: 66%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: start;
   justify-content: space-between;
-  p{
+
+  p {
     font-family: Work Sans;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 22px;
-  leading-trim: NONE;
-  line-height: 160%;
-  letter-spacing: 0%;
-  text-transform: capitalize;
-  color: #FFFFFF;
-  height: 85px;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 22px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    height: 85px;
   }
-  h1{
+
+  h1 {
     margin-top: 0px;
     height: 150px;
     font-family: Work Sans;
-  font-weight: 600;
-  font-style: SemiBold;
-  font-size: 67px;
-  leading-trim: NONE;
-  line-height: 110%;
-  letter-spacing: 0%;
-  vertical-align: middle;
-  text-transform: capitalize;
-  color: #FFFFFF;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 67px;
+    leading-trim: NONE;
+    line-height: 110%;
+    letter-spacing: 0%;
+    vertical-align: middle;
+    text-transform: capitalize;
+    color: #FFFFFF;
   }
-  button{
-        color: #FFFFFF;
-        font-family: Work Sans;
-        font-weight: 600;
-        font-style: SemiBold;
-        font-size: 16px;
-        line-height: 140%;
-        letter-spacing: 0%;
-        text-align: center;
-        width: 224px;
-        height: 60px;
-        background-color: #A259FF;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        border-radius: 20px;
-        border: #A259FF;
-        img{
-          background-color: #A259FF;
-        }
+
+  button {
+    color: #FFFFFF;
+    font-family: Work Sans;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 224px;
+    height: 60px;
+    background-color: #A259FF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    border: #A259FF;
+
+    img {
+      background-color: #A259FF;
+    }
   }
-  .ul{
+
+  .ul {
     width: 510px;
     height: 77px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    h4{
+
+    h4 {
       font-weight: 700;
       font-style: Bold;
       font-size: 28px;
       color: #FFFFFF;
-      width: 150px;
-      height: 3px;
+
     }
-    div{
+
+    div {
       width: 150px;
       height: 77px;
     }
   }
 }
-.trend{
+
+.trend {
   width: 60%;
   height: 80vh;
   display: flex;
@@ -144,7 +158,8 @@ div{
   justify-content: center;
   margin: 0 auto;
 }
-.podtrend{
+
+.podtrend {
   width: 1050px;
   height: 800px;
   display: flex;
@@ -152,11 +167,13 @@ div{
   justify-content: space-between;
   flex-direction: column;
 }
-.tr{
+
+.tr {
   width: 1046px;
   height: 91px;
   color: #FFFFFF;
-  h1{
+
+  h1 {
     font-family: Work Sans;
     font-weight: 600;
     font-style: SemiBold;
@@ -166,7 +183,8 @@ div{
     letter-spacing: 0%;
     text-transform: capitalize;
   }
-  p{
+
+  p {
     font-family: Work Sans;
     font-weight: 400;
     font-style: Regular;

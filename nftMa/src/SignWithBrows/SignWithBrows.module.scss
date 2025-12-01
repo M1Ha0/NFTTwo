@@ -1,24 +1,27 @@
-.main{
+.main {
   margin: 0 auto;
-  width: 1280px;
-  height: 642px;
+  width: 100vw;
+  height: 80vh;
   color: white;
   background-color: rgba(43, 43, 43, 1);
 }
-.secSB{
+
+.secSB {
   display: flex;
   align-items: center;
   justify-content: space-between;
 
 }
-.rightD{
-  width: 610px;
-  height: 600px;
+
+.rightD {
+  width: 30%;
+  height: 88%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: start;
-  h2{
+
+  h2 {
     font-family: Work Sans;
     font-weight: 600;
     font-style: SemiBold;
@@ -28,7 +31,8 @@
     vertical-align: middle;
     text-transform: capitalize;
   }
-  p{
+
+  p {
     font-family: Work Sans;
     font-weight: 400;
     font-style: Regular;
@@ -40,53 +44,58 @@
   }
 
 }
-.inD{
-  width: 320px;
-  height: 306px;
+
+.inD {
+  width: 75%;
+  height: 60%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
-div{
-  background-color: #3B3B3B;
-  border: solid 1px #A259FF;
-  width: 330px;
-  height: 72px;
-  border-radius: 10px ;
-  display: flex;
-  align-items: center;
-  img{
-    margin-left:25px ;
+
+  div {
+    background-color: #3B3B3B;
+    border: solid 1px #A259FF;
+    width: 330px;
+    height: 72px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+
+    img {
+      margin-left: 25px;
+    }
+
+    h5 {
+      font-family: Work Sans;
+      font-weight: 600;
+      font-style: SemiBold;
+      font-size: 22px;
+      leading-trim: NONE;
+      line-height: 140%;
+      letter-spacing: 0%;
+      text-transform: capitalize;
+      color: #FFFFFF;
+      margin-left: 25px;
+    }
+
   }
-  h5{
+
+  button {
+    width: 330px;
+    height: 46px;
+    border-radius: 20px;
+    background-color: #A259FF;
+    border: none;
+    color: #FFFFFF;
     font-family: Work Sans;
     font-weight: 600;
     font-style: SemiBold;
-    font-size: 22px;
+    font-size: 16px;
     leading-trim: NONE;
     line-height: 140%;
     letter-spacing: 0%;
-    text-transform: capitalize;
-    color: #FFFFFF;
-    margin-left:25px ;
+    text-align: center;
+    vertical-align: middle;
   }
-
-}
-button{
-   width: 330px;
-  height: 46px;
-  border-radius:20px ;
-  background-color: #A259FF;
-  border: none;
-  color: #FFFFFF;
-  font-family: Work Sans;
-  font-weight: 600;
-  font-style: SemiBold;
-  font-size: 16px;
-  leading-trim: NONE;
-  line-height: 140%;
-  letter-spacing: 0%;
-  text-align: center;
-  vertical-align: middle;
-}
 }
